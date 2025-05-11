@@ -1,3 +1,63 @@
 #files ignored by GitHub
 #This is cybeysecurity basics, don't upload your keys publicly
-.env
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+env/
+ENV/
+*.env
+
+# Secrets and credentials
+*.key
+*.pem
+*.crt
+secrets.*
+credentials.*
+*.token
+*.bak
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+pytest_cache/
+.tox/
+nosetests.xml
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# MyPy and other linting tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Logs and debug output
+*.log
+*.out
+*.tmp
