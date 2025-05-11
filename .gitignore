@@ -1,0 +1,3 @@
+#files ignored by GitHub
+#This is cybeysecurity basics, don't upload your keys publicly
+.env
